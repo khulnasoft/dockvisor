@@ -186,7 +186,7 @@ ci-test-docker-image:
 		--rm \
 		-t \
 		-v /var/run/docker.sock:/var/run/docker.sock \
-		'${PRODUCTION_REGISTRY}/wagoodman/dockvisor:latest' \
+		'${PRODUCTION_REGISTRY}/khulnasoft/dockvisor:latest' \
 			'${TEST_IMAGE}' \
 			--ci
 
